@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.formulario{
+    margin: auto;
+    margin-top: 30px;
+    height: 650px;
+    width: 1050px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.tlcadastro{
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom: 1px solid;
+    background-color: #FFF300;
+    height: 70px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 30px;
+}
+.linefor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.inputfor{
+    height: 35px;
+    width: 300px;
+    text-align: center;
+}
+.labelfor{
+    font-size: 30px;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    margin-bottom: 20px
+}
+.columfor{
+    height: 500px;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-around;
+}
+.botao{
+    height: 45px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: bold;;
+    border-radius: 10px;
+    border: 1px solid;
+    box-shadow: 0 0 5px rgba(157, 159, 118, 0.84);
+    cursor: pointer;
+    background-color: #FFF300;
+}
+.botao:hover{
+    background-color: #ece000;
+}
+.imgcadastro {
+    position: absolute;
+    height: 450px;
+    z-index: -1;
+    margin-top: 100px;
+    margin-left: 100px;
+}

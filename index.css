@@ -4,121 +4,174 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
-    height: 3vh;
+    height: 310vh;
 }
+
+/*style first vh*/
+
 .secao1 {
     background-color: #FFF300;
-    height: 850px;
+    height: 100vh;
+    width: 100%;
     display:flex;
     flex-direction: column;
     align-items: center;
+    margin: auto;
+    border: 1px solid black;
 }
 .logojs{
-    margin: 10px;
-    height: 80px;
+    margin: 0.5%;
+    height: 80%;
 }   
 .imgnote{
-    height: 350px;
-    margin: 30px;
+    height: 45%;
+    margin: 7%;
 }
 .cabecalho {
     border-bottom: 2px solid rgb(0, 0, 0);
     text-align: center;
+    height: 8%;
     width: 100%;
 }
 .mainsc1 {
+    height: 92%;
     display:flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
+    text-align: center;
 }
 .titulo{
-    margin-top: 20px;
-    font-size: 50px;
-}
-.paragrafo1{
-    margin-top: 10px;
-    font-size: 40px;
+    margin-top: 2%;
+    font-size: 200%;
     font-weight: bold;
 }
-.imaginlus1{
-    margin-top: 50px;
-    height: 600px;
-    
+.paragrafo1{
+    width: 500px;
+    font-size: 150%;
+    font-weight: bold;
 }
+@media (max-width: 708px){
+    .titulo{
+        margin-top: 2%;
+        font-size: 160%;
+        font-weight: bold;
+    }
+    .paragrafo1{
+        width: 80%;
+        font-size: 140%;
+        font-weight: bold;
+    }
+    .imgnote{
+        height: 20%;
+        margin: 20%;
+    }
+}
+
+/*style second vh*/
+
 .secao2{
-    margin-top: 150px;
-    height: 850px;
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-around;
-}
-.lista{
-    background-color: #FFF300;
-    height: 500px;
-    width: 350px;
-    margin-top: 100px;
-    margin-left: 20px;
-    position: relative; 
     border: 1px solid black;
+}
+.flashcard{
+    height: 80%;
+    margin-left: 5%;
 }
 .bola {
     background-color: #FFF300;
     border: 1px solid black;
     border-radius: 100%;
-    height: 250px;
+    height: 180px;
+    width: 180px;
+    margin-left: 34px;
+    float: left;
+}
+.lista{
+    margin-top: 45%;
+    background-color: #FFF300;
+    height: 420px;
     width: 250px;
-    position:absolute;
-    top: -130px;
-    left: 45px;
+    border: 1px solid black;
 }
 .elements {
-    position: absolute;
-    top: 130px;
-    font-size: 25px;
+    margin-left: 25px;
+    margin-top: 80px;
+    font-size: 20px;
+    font-weight: bold;
 }
 li{
-    margin-left: 50px;
-    word-wrap: break-word;
     margin-bottom: 10px;
+    word-wrap: break-word;
 }
 .ifjs{
-    position: absolute;
-    top: 30px;
-    left: 40px;
+    height: 100%;
     text-align: center;
 }
 .js1{
-    font-size: 140px;
+    font-size: 130px;
     font-weight: normal;
+    
 }
 .grade{
-    margin-top: -25px;
-    font-size: 40px;
+    margin-top: -20px;
+    font-size: 25px;
 }
+.imaginlus1{
+    height: 60%;
+}
+@media (max-width: 850px){
+    .imaginlus1{
+        height: 50%;
+    }
+}
+@media (max-width: 729px){
+    .imaginlus1{
+        display: none;
+    }
+}
+
+/*style third vh*/
+
 .secao3{
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid black;
 }
 .tlcdastro{
-    margin-top: -px;
-    font-size: 50px;
+    margin-top: 3%;
+    font-size: 240%;
 }
 .maincs3{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-around;
+    margin-top: 5%;
 }
 .imgsc3{
-    margin-top: 30px;
-    height: 700px;
-    margin-left: -400px;
+    width: 55%;
+}
+.opcadastro{
+   margin-right: 5%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
 }
 .cadastroin{
-    margin-top: -200px;
-    margin-right: -300px;
-    font-size: 35px;
+    width: 450px;
+    font-size: 200%;
+    word-wrap:break-word;
 }
 .btcadastro{
     height: 60px;
@@ -128,21 +181,52 @@ li{
     text-align: center;
     line-height: 60px;
     font-weight: bold;
-    margin-left: 110px;
-    margin-top: 100px;
+    margin-top: 60px;
     font-size: 20px;
     cursor: pointer;
 }
-.opcadastro{
-    margin-right: -80px;
+.btcadastro:hover{
+    background-color: #ece000;
+}
+@media (max-width: 914px){
+    .cadastroin{
+        width: 400px;
+        font-size: 25px;
+    }
+}
+@media (max-width: 729px){
+    .cadastroin{
+        margin-left: 50px;
+        margin-top: 5%;
+        font-size: 25px;
+        width: 70%;
+    }
+    .tlcdastro{
+        margin-top: 50px;
+        font-size: 35px;
+    }
+    .maincs3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width: 535px){
+    .tlcdastro{
+        font-size: 28px;
+    }
+    .cadastroin{
+        font-size: 23px;
+    
+    }
+    .imgsc3{
+        width: 90%;
+    }
 }
 footer{
     background-color:#FFF300;
-    height: 40px;
+    height: 10vh;
     text-align: center;
-    line-height: 40px;
+    line-height: 200%;
     font-weight: bold;
-}
-.btcadastro:hover{
-    background-color: #ece000;
 }

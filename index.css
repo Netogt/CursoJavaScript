@@ -198,9 +198,16 @@ li{
     font-size: 20px;
     cursor: pointer;
     border: 1px solid black;
+
 }
 .btcadastro:hover{
     background-color: #ece000;
+}
+@media (max-width: 914px){
+    .cadastroin{
+        width: 400px;
+        font-size: 25px;
+    }
 }
 @media (max-width: 914px){
     .cadastroin{
@@ -247,12 +254,12 @@ footer{
     border: 1px solid black;
 }
 
-/*style*/
+/*style cadastro*/
 .fundois{
     top: 0;
     position: fixed;
     height: 100%;
-    width: 99%;
+    width: 100%;
     background-color: rgba(0, 0, 0, 0.747);
     display: none;
 }
@@ -310,7 +317,7 @@ footer{
     height: 45px;
     width: 150px;
     font-size: 20px;
-    font-weight: bold;;
+    font-weight: bold;
     border-radius: 15px;
     border: 1px solid ;
     box-shadow: 0 0 5px rgba(157, 159, 118, 0.84);
@@ -349,18 +356,15 @@ footer{
     }
 
 }
-@media (max-width: 592px){
-    .formulario{ 
-        margin: 0 25%;
-    }
-}
-@media (max-width: 667px){
+@media (max-width: 900px){
     .formulario{ 
         border-radius: 0;
         margin: 0;
         width: 100%;
         height: 100%;
     }
+}
+@media (max-width: 667px){
     .tlcadastro{
         border-radius: 0;
     }
